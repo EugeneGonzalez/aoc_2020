@@ -1,7 +1,6 @@
 use aoc_runner_derive::{aoc, aoc_generator};
 use itertools::Itertools;
-
-use itertools::MinMaxResult::{MinMax, NoElements, OneElement};
+use itertools::MinMaxResult::MinMax;
 use std::num::ParseIntError;
 
 // Make it easier to synchronize the input type for the generator and solvers.
